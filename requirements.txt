@@ -1,3 +1,4 @@
+aiofiles==24.1.0
 aiohttp==3.9.5
 aiosignal==1.3.1
 altair==5.3.0
@@ -6,6 +7,10 @@ anyio==4.4.0
 asgiref==3.8.1
 attrs==23.2.0
 audioread==3.0.1
+azure-ai-textanalytics==5.3.0
+azure-common==1.1.28
+azure-core==1.32.0
+azure-identity==1.19.0
 backoff==2.2.1
 bcrypt==4.2.0
 blinker==1.8.2
@@ -18,7 +23,6 @@ certifi==2024.6.2
 cffi==1.16.0
 charset-normalizer==3.3.2
 chroma-hnswlib==0.7.6
-chromadb==0.5.11
 cleo==2.1.0
 click==8.1.7
 cloudpathlib==0.18.1
@@ -38,11 +42,11 @@ dnspython==2.6.1
 dulwich==0.21.7
 durationpy==0.7
 email_validator==2.2.0
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
-fastapi==0.111.0
 fastapi-cli==0.0.4
 fastjsonschema==2.20.0
 filelock==3.15.1
+Flask==3.1.0
+Flask-Cors==5.0.0
 flatbuffers==24.3.25
 frozenlist==1.4.1
 fsspec==2024.9.0
@@ -54,18 +58,26 @@ google_search_results==2.4.2
 googleapis-common-protos==1.65.0
 greenlet==3.0.3
 grpcio==1.66.2
+gunicorn==23.0.0
 h11==0.14.0
+h2==4.1.0
+hpack==4.1.0
 httpcore==1.0.5
 httptools==0.6.1
 httpx==0.27.0
 huggingface-hub==0.25.1
 humanfriendly==10.0
+Hypercorn==0.17.3
+hyperframe==6.1.0
 idna==3.7
 importlib_metadata==8.4.0
 importlib_resources==6.4.5
 installer==0.7.0
+isodate==0.7.2
+itsdangerous==2.2.0
 jaraco.classes==3.4.0
 Jinja2==3.1.4
+jiter==0.8.2
 joblib==1.4.2
 jsonpatch==1.33
 jsonpointer==3.0.0
@@ -74,7 +86,6 @@ jsonschema-specifications==2023.12.1
 keyring==24.3.1
 kubernetes==31.0.0
 langchain==0.2.5
-langchain-community==0.2.5
 langchain-core==0.2.9
 langchain-openai==0.1.8
 langchain-text-splitters==0.2.1
@@ -94,6 +105,8 @@ mmh3==5.0.1
 monotonic==1.6
 more-itertools==10.5.0
 mpmath==1.3.0
+msal==1.31.1
+msal-extensions==1.2.0
 msgpack==1.0.8
 multidict==6.0.5
 murmurhash==1.0.10
@@ -125,12 +138,12 @@ pexpect==4.9.0
 pillow==10.3.0
 pkginfo==1.11.1
 platformdirs==4.2.2
-poetry==1.8.3
 poetry-core==1.9.0
-poetry-plugin-export==1.8.0
 pooch==1.8.2
+portalocker==2.10.1
 posthog==3.6.6
 preshed==3.0.9
+priority==2.0.0
 protobuf==4.25.3
 ptyprocess==0.7.0
 pyarrow==16.1.0
@@ -141,6 +154,7 @@ pydantic==2.7.4
 pydantic_core==2.18.4
 pydeck==0.9.1
 Pygments==2.18.0
+PyJWT==2.10.1
 PyPDF2==3.0.1
 pypdfium2==4.30.0
 PyPika==0.48.9
@@ -153,8 +167,11 @@ python-dotenv==1.0.1
 python-multipart==0.0.9
 python3-pika==0.9.14
 pytz==2024.1
+pywin32==308
 pywin32-ctypes==0.2.3
 PyYAML==6.0.1
+Quart==0.20.0
+quart-cors==0.8.0
 rapidfuzz==3.9.7
 referencing==0.35.1
 regex==2024.5.15
@@ -181,7 +198,6 @@ spacy-loggers==1.0.5
 SQLAlchemy==2.0.31
 srsly==2.4.8
 sse-starlette==2.1.2
-st-circular-progress==0.3.9
 starlette==0.37.2
 streamlit==1.35.0
 sympy==1.13.3
@@ -211,7 +227,9 @@ watchfiles==0.22.0
 weasel==0.4.1
 websocket-client==1.8.0
 websockets==12.0
+Werkzeug==3.1.3
 wheel==0.43.0
 wrapt==1.16.0
+wsproto==1.2.0
 yarl==1.9.4
 zipp==3.20.2
