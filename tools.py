@@ -18,5 +18,5 @@ def get_current_weather(latitude, longitude):
 
     except requests.RequestException as e:
         # Handle any errors that occur during the request
-        print(f"Error fetching weather data: {e}")
+        print(f"Error fetching weather data : {e}")
         return None
